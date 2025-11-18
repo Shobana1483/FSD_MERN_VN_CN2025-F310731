@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Shobana J</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <div class="logo">SJ</div>
+        <div>
+          <h1>Shobana J</h1>
+          <div style="font-size:13px;color:var(--muted)">Full Stack Developer</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container">
+      <h2>My Projects</h2>
+      <p style="color:var(--muted)">Here are some real projects demonstrating full-stack skills: backend APIs, authentication, email alerts, and responsive UIs.</p>
+
+      <!-- PROJECT CARDS GRID (min 6) -->
+      <div class="projects-grid" aria-live="polite">
+
+        <!-- 1 -->
+        <article class="project-card" aria-labelledby="p1-title">
+          <div class="thumb">
+            <img src="images\WhatsApp Image 2025-11-16 at 20.55.09_d05ed699.jpg" alt="Public Service Notifier screenshot" style="width:100%;height:100%;object-fit:cover" onerror="this.src='https://via.placeholder.com/600x360?text=Public+Service'">
+          </div>
+          <h3 id="p1-title">Public Service Notifier</h3>
+          <p>Issue reporting web app with image uploads, voting system (1 vote/user), status tracking, and admin controls. Social-media like UI for reports.</p>
+          <div class="tags">
+            <div class="tag">Java</div><div class="tag">Spring Boot</div><div class="tag">MySQL</div><div class="tag">Thymeleaf</div>
+          </div>
+          <div class="proj-actions">
+            <a class="primary" href="https://github.com/Shobana1483/public_service_notifier" target="_blank" rel="noopener">Source</a>
+            <a href="#">Live (placeholder)</a>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="project-card" aria-labelledby="p2-title">
+          <div class="thumb">
+            <img src="images\WhatsApp Image 2025-11-16 at 20.55.09_e4273d70.jpg" alt="Document Expiry Tracker screenshot" style="width:100%;height:100%;object-fit:cover" onerror="this.src='https://via.placeholder.com/600x360?text=Document+Expiry'">
+          </div>
+          <h3 id="p2-title">Document Expiry Tracker System</h3>
+          <p>Tracks personal documents' expiry dates, sends email alerts 3 days before expiry, and provides dashboard with search and CRUD features.</p>
+          <div class="tags">
+            <div class="tag">Spring Boot</div><div class="tag">JavaMail</div><div class="tag">MySQL</div>
+          </div>
+          <div class="proj-actions">
+            <a class="primary" href="https://github.com/Shobana1483/document_expirytracker_system1" target="_blank">Source</a>
+            <a href="#">Demo</a>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="project-card" aria-labelledby="p3-title">
+          <div class="thumb">
+            <img src="images\WhatsApp Image 2025-11-16 at 20.55.40_a02518a3.jpg" alt="Expense Tracker screenshot" style="width:100%;height:100%;object-fit:cover" onerror="this.src='https://via.placeholder.com/600x360?text=Expense+Tracker'">
+          </div>
+          <h3 id="p3-title">Expense Tracker System</h3>
+          <p>Personal expense manager with categorized entries, monthly summaries, and CRUD operations. Built with Spring Boot and JSP front-end.</p>
+          <div class="tags">
+            <div class="tag">JSP</div><div class="tag">Spring Boot</div><div class="tag">MySQL</div>
+          </div>
+          <div class="proj-actions">
+            <a class="primary" href="#">Source</a>
+            <a href="#">Live</a>
+          </div>
+        </article>
+
+       
+
+
+        <!-- 6 -->
+        <article class="project-card" aria-labelledby="p6-title">
+          <div class="thumb">
+            <img src="images\WhatsApp Image 2025-11-16 at 21.00.25_752a6be3.jpg" alt="Heart Disease Prediction screenshot" style="width:100%;height:100%;object-fit:cover" onerror="this.src='https://via.placeholder.com/600x360?text=ML+Project'">
+          </div>
+          <h3 id="p6-title">Heart Disease Prediction (ML)</h3>
+          <p>A machine learning pipeline (KNN) for heart disease prediction with preprocessing and a Flask demo for showcasing the model prediction UI.</p>
+          <div class="tags"><div class="tag">Python</div><div class="tag">scikit-learn</div><div class="tag">Flask</div></div>
+          <div class="proj-actions">
+            <a class="primary" href="#">Notebook</a>
+            <a href="#">Demo</a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- PROJECTS TABLE -->
+      <div style="margin-top:28px">
+        <h3 style="color:#111827;margin-bottom:12px">Projects — Summary Table</h3>
+        <table class="projects-table" aria-label="Projects summary table">
+          <thead>
+            <tr>
+              <th>Project Name</th>
+              <th>Category</th>
+              <th>Technologies</th>
+              <th>Completion Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Public Service Notifier</td>
+              <td>Web App / Issue Reporting</td>
+              <td>Java, Spring Boot, MySQL, Thymeleaf</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>Document Expiry Tracker</td>
+              <td>Web App / Productivity</td>
+              <td>Java, Spring Boot, MySQL, JavaMail</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>Expense Tracker System</td>
+              <td>Web App / Utility</td>
+              <td>Spring Boot, JSP, MySQL</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <td>Heart Disease Prediction (ML)</td>
+              <td>Machine Learning</td>
+              <td>Python, scikit-learn, Flask</td>
+              <td>Jan 2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© 2025 Shobana Jagadeesan</div>
+      <div class="links">
+        <a href="https://linkedin.com/in/shobana-jagadeesan" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Shobana1483" target="_blank">GitHub</a>
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
